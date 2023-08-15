@@ -1,13 +1,13 @@
-import Image from 'next/image'
-
+"use client"
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 test">
-      <h1>  Welcome To Threads</h1>
+    <div>
+      <h1 className="head-text text-left text-white">Main</h1>
+    </div>
 
-
-    </main>
   )
 }
+
 
